@@ -6,8 +6,8 @@
 This project is built with **Laravel**, the most popular PHP framework for modern web applications.  
 It comes with a clean structure, powerful features, and scalability support for small to enterprise-level applications.
 
-🔗 **Demo Video:** [Watch Here](https://drive.google.com/file/d/1u7dShgHqpLohbTM3vXD65h0bIF81Ye5y/view?usp=sharing)  
-🗄️ **Database (SQL File):** [Download Here](https://drive.google.com/file/d/12w4xbwNNj1mQQb7gXQYcKb7R4yT0VRSf/view?usp=sharing)
+🔗 **Demo Video:** [Watch Here](https://drive.google.com/file/d/)  
+🗄️ **Database (SQL File):** [Download Here](https://drive.google.com/file/d/)
 
 ---
 
@@ -27,23 +27,23 @@ It comes with a clean structure, powerful features, and scalability support for 
 Follow the steps below to set up the project on your local machine:
 
 ```bash
-# Clone the repository
+# 1. Clone the repository
 git clone <repo-link>
 
-# Go into the project folder
+# 2. Go into the project folder
 cd project-folder
 
-# Install dependencies
+# 3. Install dependencies
 composer install
 
-# Copy environment file
+# 4. Copy environment file
 cp .env.example .env
 
-# Generate application key
+# 5. Generate application key
 php artisan key:generate
 
-# Run migrations (with SQL file if needed)
+# 6. Run migrations (with SQL file if needed)
 php artisan migrate --seed
 
-# Start development server
+# 7. Start development server
 php artisan serve
